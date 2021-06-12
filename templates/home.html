@@ -1,6 +1,89 @@
 <!DOCTYPE html>
 
 
+
 <h1>
-    
+    This is the heart attack    
 </h1>
+
+<body>
+    <h2>
+        Enter Your details 
+    </h2>
+
+    <form>
+        <label for="name">Enter your name:</label>        
+        <input id= 'name' type="text">
+        <br>
+
+        <label for="age">Enter your age:</label>
+        <input id= 'age' type="number" min='1' max='100'>
+        <br>
+
+        <label for="sex">Gender:</label>
+        <select name='sex' id='sex'>
+            <option value="">Please select your gender</option>
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+        </select>
+        <br>
+
+        <label for="exang">Exercise Induced Angina:</label>
+        <select name='exang' id='exang'>
+            <option value="">Is it present?</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br>
+
+        <label for="ca">Number of major vessels:</label>
+        <select name='ca' id='ca'>
+            <option value="">No of vesseles</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br>
+        
+        <label for="cp">Chest pain:</label>
+        <select name='ca' id='ca'>
+            <option value="">Enter ches pain type</option>
+            <option value="1">typical angina</option>
+            <option value="2">atypical angina</option>
+            <option value="3">non-anginal pain</option>
+            <option value="4">asymptomatic</option>
+        </select>
+        <br>
+        
+        <label for="trtbs">Resting blood pressure(in mm Hg):</label>
+        <input id= 'trtbs' type="number" min="80" max="180" placeholder="Select">
+        <br>
+
+        <label for="chol">Cholestral in mg/dl:</label>
+        <input id= 'chol' type="number" min="0" max= '500' placeholder="Select">
+        <br>
+
+        <label for="fbs">Fasting blood sugar (more than 120 mg/dl):</label>
+        <select name='fbs' id='fbs'>
+            <option value="">Select yes if its more than 120mg/dl</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br>
+
+        <label for="rest_ecg">Rest ecg:</label>
+        <select name='rest_ecg' id='rest_ecg'>
+            <option value="">Select from following options</option>
+            <option value='0'>Normal</option>
+            <option value='1'>Having ST-T wave abnormality</option>
+            <option value='2'>Showing probable or definite left ventricular hypertrophy by Estes' criteria</option>
+        </select>
+        <br>
+
+        <label for="thalanch">Maximum Heart rate:</label>
+        <input id= 'thalanch' type="number" min='1' max='250' placeholder="Select">
+        <br>
+    </form>
+    <button>Submit</button>
+</body>
