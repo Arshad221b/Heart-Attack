@@ -1,42 +1,55 @@
 
+
+
 body {
-    width: 100vw;
-    height: 100vh;
-    font-size: 135%;
-    background: #ecf0f3;
-    font-family: poppins;
-    text-align: left;
+    width       : 100vw;
+    height      : 100vh;
+    font-size   : 135%;
+    background  : #ecf0f3;
+    font-family : poppins;
+    text-align  : left;
+}
+
+.title{
+    margin-top  : 100px;
+}
+
+.container{
+    width       : 575.98px;
+    margin-left : 20%;
+    margin-right: 20%;
 }
 
 h1{
-    text-align: center;
-    color: blue;
+    text-align  : center;
+    color       : blue;
 }
 
 h2{
-    color:black;
+    color       :black;
 }
 
 label {
-    padding-top: 1%;
-    color: black;
-    width: 350px;
-    line-height: 1;
-    display: inline-block;
+    padding-top : 1%;
+    color       : black;
+    width       : 350px;
+    line-height : 1;
+    display     : inline-block;
 }
 
 input {
-    background: #ecf0f3;
-    line-height: 0;
-    padding: 10px;
-    margin-left: 10px;
-    height: 10px;
-    min-width: 400px;
-    font-size: 20px;
-    border-radius: 50px;
-    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    background  : #ecf0f3;
+    line-height : 0;
+    margin-left : 10px;
+    margin-bottom: 5px;
+    min-width   : 400px;
+    font-size   : 20px;
+    border-radius: 5s0px;
+    /* box-shadow  : inset 6px 6px 6px #cbced1, inset -6px -6px 6px white; */
 }
-
+div{
+    margin-top  : 100px;
+}
 
 button {
     margin-top  : 20px;
@@ -56,9 +69,9 @@ button {
 
 
 button{
-    position: absolute;
-    box-shadow: none;
-    align-items: center;
-    left: 50%;
+    position    : absolute;
+    box-shadow  : none;
+    align-items : center;
+    left        : 50%;
 }
 
