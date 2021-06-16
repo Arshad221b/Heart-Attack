@@ -12,7 +12,7 @@ def prediction(l):
     if o[0] == 1:
         return('Heart Attack!')
     else:
-        return('Nothing')
+        return('No Heart Attack!')
 
 
 

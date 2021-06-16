@@ -50,11 +50,11 @@
                                     <label class="label">Gender</label>
                                     <div class="p-t-10">
                                         <label class="radio-container m-r-45">Male
-                                            <input type="radio" checked="checked" name="gender" value=1>
+                                            <input type="radio" checked="checked" name="sex" value=1>
                                             <span class="checkmark"></span>
                                         </label>
                                         <label class="radio-container">Female
-                                            <input type="radio" name="gender" value=0>
+                                            <input type="radio" name="sex" value=0>
                                             <span class="checkmark"></span>
                                         </label>
                                     </div>
@@ -66,7 +66,7 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Age</label>
-                                    <input class="input--style-4" type="number" min='1' max='100'>
+                                    <input class="input--style-4" name="age" type="number" min='1' max='100'>
                                 </div>
                             </div>
                             <div class="col-2">
@@ -90,35 +90,30 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Resting BP(_mm Hg)</label>
-                                    <input class="input--style-4" type="number" min='80' max='180'>
+                                    <input name="trtbs" class="input--style-4" type="number" min='80' max='180'>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Cholestrol(_mg/dl)</label>
-                                    <input class="input--style-4" type="number" min='0' max='500'>
+                                    <input name="chol" class="input--style-4" type="number" min='0' max='500'>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="input-group">
-                            <label class="label">Number of Major Vessels</label>
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="subject">
-                                    <option disabled="disabled" selected="selected">Choose option</option>
-                                    <option value="0">0</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                </select>
-                                <div class="select-dropdown"></div>
+                            <label class="label">Maximum Heart rate Achieved</label>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <input name="thalanch" class="input--style-4" type="number" min='10' max='300'>
+                                </div>
                             </div>
                         </div>
 
                         <div class="input-group">
                             <label class="label">Chest Pain</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="subject">
+                                <select name='cp'>
                                     <option disabled="disabled" selected="selected">Choose option</option>
                                     <option value="1">Typical Angina</option>
                                     <option value="2">Atypical Angina</option>
@@ -132,7 +127,7 @@
                         <div class="input-group">
                             <label class="label">Fasting Blood Sugar</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="subject">
+                                <select name="fbs">
                                     <option disabled="disabled" selected="selected">Choose option</option>
                                     <option value="1">More than(or equal) 120mg/dl</option>
                                     <option value="0">Less than 120mg/dl</option>
@@ -144,7 +139,7 @@
                         <div class="input-group">
                             <label class="label">Rest Ecg</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="subject">
+                                <select name="rest_ecg'">
                                     <option disabled="disabled" selected="selected">Choose option</option>
                                     <option value="0">Normal</option>
                                     <option value="1">Having ST-T wave abnormality</option>
