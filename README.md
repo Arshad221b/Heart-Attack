@@ -20,5 +20,6 @@ Created an front end page with html. The flask is used to run these pages. [mode
 |------------|-------------| 
 <img src="https://github.com/Arshad221b/Machine-Learning-with-flask/blob/master/images/Screenshot%202021-06-17%20at%203.23.52%20PM.png"> |<img src="https://github.com/Arshad221b/Machine-Learning-with-flask/blob/master/images/Screenshot%202021-06-17%20at%203.09.41%20PM.png">
 
-
+---
 ### Run app.py
+---
