@@ -10,6 +10,8 @@ You can check that in the [heart_attack.ipynb](https://github.com/Arshad221b/Mac
 Got accuracy of 82% with F1 score of 81.
 Model weights are stored in finalized_model.sav
 
+You can read my blog on SVM [here](https://www.arshad-kazi.com/mathematics-behind-svmsupport-vector-machine/).
+
 ## Flask Integration 
 Created an front end page with html. The flask is used to run these pages. [model_prediction.py](https://github.com/Arshad221b/Machine-Learning-with-flask/blob/master/model_prediction.py) is where all the post requests are processed and prediction is made. 
 
